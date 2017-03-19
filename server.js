@@ -7,7 +7,7 @@ app 		= express(),
 request 	= require('request'),
 fs 			= require('fs'),
 url 		= require("url"),
-PORT 		= 5000;
+PORT 		= process.env.PORT ||5000;
 
 app.get('/scrap', function (req, res, next) {
 	let results = [], scrapper = {}, scrapUrl = 'http://www.bing.com/search?q=';
