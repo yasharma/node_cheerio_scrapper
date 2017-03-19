@@ -1,0 +1,23 @@
+{
+	"name": "node_cheerio_scrapper",
+	"version": "1.0.0",
+	"description": "Scrap using nodejs cheerio",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "5.9.1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cheerio": "^0.22.0",
+		"express": "^4.15.2",
+		"request": "^2.81.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yash/node_cheerio_scrapper"
+	}
+}
