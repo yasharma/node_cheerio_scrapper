@@ -38,6 +38,7 @@ app.get('/scrap', function (req, res, next) {
 			results.push({title: title, description: description, url: url});
 		});
 		scrapper = {
+			finalUrl:finalUrl,
 			next: nextUrl,
 			result: results
 		}
